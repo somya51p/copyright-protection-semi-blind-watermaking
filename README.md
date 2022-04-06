@@ -30,6 +30,12 @@ pip install numpy
 ```
 Then run the code in jupyter notebook.
 
+1. **Ownership_Gen.ipynb** will generate the Ownership share for our image and watermark.
 
+2. **Master_Gen.ipynb** will generate all the Master shares for each of the sample stolen and modified images. 
+
+3. **Watermark_Gen.ipynb** will extract watermarks using the Ownership share with each of the master shares.
+
+4. **Template_Res.ipynb** will give the accuracy of extracted watermark.
 
 ## Made with ♥
